@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #28bcac;
 }
 
 h1,
@@ -43,7 +43,7 @@ h6 {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #28bcac;
 }
 
 header .container {
@@ -137,7 +137,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #28bcac;
 }
 
 @media(max-width:767px) {
@@ -169,7 +169,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #28bcac;
     background: #fff;
 }
 

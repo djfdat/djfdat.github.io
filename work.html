@@ -47,6 +47,7 @@
                 <a class="navbar-brand" href="#page-top">Fatir Ahmad<h6>Game Developer</h6></a>
 
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -54,10 +55,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About Me</a>
+                        <a href="index.html">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#shippedTitles">Shipped Titles</a>
+                        <a href="work.html">Work</a>
                     </li>
                 </ul>
             </div>
@@ -71,44 +72,48 @@
     <!-- About Section -->
     <section class="success" id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <br/>
-                    <br/>
-                    <h2>About</h2>
-                    <br/>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <p>As a Game Developer, I'm interested in overcoming new challenges to expand my knowledge and skillset. In my free time I like to work on various personal side projects, whether those be games, browser extensions, or websites.</p>
-                </div>
+            <div class="row col-lg-12 text-center">
+                <br/>
+                <br/>
+                <h2>Shipped Titles</h2>
             </div>
         </div>
     </section>
 
 
     <!-- Work Grid Section -->
-    <section id="shippedTitles">
+    <section id="success">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Shipped Titles</h2>
-                </div>
-            </div>
-            <hr/>
-
             <!-- #region Job Entry -->
             <div class="row">
                 <div class="col-sm-6">
-                    <a href="#game_wildstar" class="work-link text-left" data-toggle="modal">
-                        <img src="wildstar_cover.png" width="300px"/>
-                        <h6>Carbine Studios, NCSoft</h6>
+                    <a href="#scripter_carbineStudios" class="work-link text-left" data-toggle="modal">
+                        <h4>Scripter</h4>
+                        <h6>Carbine Studios</h6>
                     </a>
+                </div>
+                <div class="col-sm-6 text-right">
+                    <h6>December 2014 - March 2016</h6>
                 </div>
             </div>
             <hr/>
             <!-- #endregion Job Entry -->
+
+            <!-- #region Job Entry -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="#gameDesigner_carbineStudios" class="work-link text-left" data-toggle="modal">
+                        <h4>Game Designer</h4>
+                        <h6>Carbine Studios</h6>
+                    </a>
+                </div>
+                <div class="col-sm-6 text-right">
+                    <h6>May 2011 - December 2014</h6>
+                </div>
+            </div>
+            <hr/>
+            <!-- #endregion Job Entry -->
+
         </div>
     </section>
 
@@ -129,8 +134,8 @@
         </div>
     </footer>
 
-    <!-- Game Modals -->
-    <div class="work-modal modal fade" id="game_wildstar" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Work Modals -->
+    <div class="work-modal modal fade" id="scripter_carbineStudios" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -139,23 +144,43 @@
                 </div>
             </div>
             <div class="container">
-                <div class="column">
-                </div>
-                <div class="column">
-                </div>
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <img src="wildstar_logo_transparentlarge.png" width = 400 />
-                            
-                            <h3>Credits</h3>
-                            <h4>Scripter</h4>
-                            <p>December 2014 - March 2016</p>
+                            <h2>Scripter</h2>
                             <p>As a Scripter, my primary job was to audit scripting work done by designers on a weekly basis to ensure we released a top quality product. Additionally, I provided floor support in teaching the scripting language and assisting designers with scripting solutions.</p>
                             <p>I also worked in C++ to extend our scripting language to provide new functionality for our designers to use, improvements to our in-house tools, and miscellaneous cleanup to various systems. When needed we also provided UI scripting support.</p>
-                            
-                            <h4>Game Designer</h4>
-                            <p>May 2011 - November 2014</p>
+                            <ul class="list-inline item-details">
+                                <li>Company:
+                                    <strong><a href="http://carbinestudios.com">Carbine Studios</a>
+                                    </strong>
+                                </li>
+                                <li>Product:
+                                    <strong><a href="http://wildstar-online.com">Wildstar</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="work-modal modal fade" id="gameDesigner_carbineStudios" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Game Designer</h2>
                             <p>As a Game Designer, I worked on Quest, Challenge, and Path content across various zones of the game. I was also a part of Adventures, which are 5-player instances that provide a unique PvE experience, from branching storylines with slotted components to a MOBA-like instance facing off against NPC's that mimic player strategies to create an adaptive challenge in each match.</p>
                             <ul class="list-inline item-details">
                                 <li>Company:
