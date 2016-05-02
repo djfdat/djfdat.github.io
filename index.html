@@ -35,7 +35,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container" data-spy="scroll" data-target=".navbar">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -54,10 +54,16 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About Me</a>
+                        <a href="#about">Home</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#shippedTitles">Shipped Titles</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#personalProjects">Personal Projects</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#resume">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -75,13 +81,21 @@
                 <div class="col-lg-12 text-center">
                     <br/>
                     <br/>
+                    <img src="img/headshot.jpg" class="img-circle">
                     <h2>About Me</h2>
                     <br/>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <p>As a Game Developer, I'm interested in overcoming new challenges to expand my knowledge and skillset. In my free time I like to work on various personal side projects, whether those be games, browser extensions, or websites.</p>
+                    <p>
+                        A Game Developer with over 5 years of industry experience in Design and Engineering. Looking to expand my Engineering background while creating fun and challenging gameplay experiences.
+                    </p>   
+                        
+                    <p>
+                        In my free time I like to learn new technologies in a variety of spaces. Currently working on Unreal, Unity, and Phaser side projects, and exploring various web APIs for interesting applications using ReactJS.
+                    </p>
+                    
                 </div>
             </div>
         </div>
@@ -102,8 +116,8 @@
             <div class="row">
                 <div class="col-sm-6">
                     <a href="#game_wildstar" class="work-link text-left" data-toggle="modal">
-                        <img src="wildstar_cover.png" width="300px"/>
-                        <h6>Carbine Studios, NCSoft</h6>
+                        <img src="img/wildstar_cover.png" width="300px"/>
+                        <h6 class="project-link">Carbine Studios, NCSoft</h6>
                     </a>
                 </div>
             </div>
@@ -112,52 +126,125 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-below">
-            <br/>
-            <div class="container">
-                <div class="row">
-                    <a href="mailto:djfdat@gmail.com">djfdat@gmail.com</a>
+
+
+
+    <section id="personalProjects">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Personal Projects</h2>
                 </div>
-                <div class="row">
-                    <div class="col-med-12">
-                        &copy; Copyright Fatir Ahmad 2014
+            </div>
+            <hr/>
+            
+
+            <!-- #region Entry -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="#personalProject_phaserTypescriptVSCode" class="work-link text-left" data-toggle="modal">
+                        <img src="img\typescript_phaser_vscode.png" width="300px"/>
+                        <h6 class="project-link">Phaser Typescript VSCode Boilerplate</h6>
+                    </a>
+                </div>
+            </div>
+            <hr/>
+            <!-- #endregion Entry -->
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Resume</h2>
+                </div>
+            </div>
+            <hr/>
+
+            <!-- #region Job Entry -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="src\resume\Ahmad, Fatir - Game Designer - Resume.pdf" class="work-link text-left" data-toggle="modal">
+                        <img src="img/pdf_icon.png" width="32px"/>
+                        <h6 class="project-link">Download .PDF</h6>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="src\resume\Ahmad, Fatir - Game Designer - Resume.docx" class="work-link text-left" data-toggle="modal">
+                        <img src="img/docx_icon.png" width="32px" />
+                        <h6 class="project-link">Download .DOCX</h6>
+                    </a>
+                </div>
+            </div>
+            <hr/>
+            <!-- #endregion Job Entry -->
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="text-left">
+        <div class="footer-below">
+            <div class="container">
+              
+            <br/>
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                    <div class="row">
+                        Email Me: <a href="mailto:djfdat@gmail.com">djfdat@gmail.com</a>
+                    </div>
+                    <div class="row">
+                            &copy; Copyright Fatir Ahmad 2014
                     </div>
                 </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-4 text-right">
+                    <div class="row">
+                        <iframe class="text-left"src="https://ghbtns.com/github-btn.html?user=djfdat&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe>
+                    </div>
+
+                </div>
+               
             </div>
         </div>
     </footer>
 
-    <!-- Game Modals -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Modals -->
+    
+    
+    <!-- Wildstar -->
     <div class="work-modal modal fade" id="game_wildstar" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
+            
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
                     <div class="rl">
                     </div>
                 </div>
             </div>
+            
             <div class="container">
-                <div class="column">
-                </div>
-                <div class="column">
-                </div>
                 <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <img src="wildstar_logo_transparentlarge.png" width = 400 />
-
-                            <h3>Credits</h3>
-                            <h4>Scripter</h4>
-                            <p>December 2014 - March 2016</p>
-                            <p>As a Scripter, my primary job was to audit scripting work done by designers on a weekly basis to ensure we released a top quality product. Additionally, I provided floor support in teaching the scripting language and assisting designers with scripting solutions.</p>
-                            <p>I also worked in C++ to extend our scripting language to provide new functionality for our designers to use, improvements to our in-house tools, and miscellaneous cleanup to various systems. When needed we also provided UI scripting support.</p>
-
-                            <h4>Game Designer</h4>
-                            <p>May 2011 - November 2014</p>
-                            <p>As a Game Designer, I worked on Quest, Challenge, and Path content across various zones of the game. I was also a part of Adventures, which are 5-player instances that provide a unique PvE experience, from branching storylines with slotted components to a MOBA-like instance facing off against NPC's that mimic player strategies to create an adaptive challenge in each match.</p>
-                            <ul class="list-inline item-details">
+                    <div class="col-lg-12">
+                        <div class="modal-body" align="left">
+                            <img src="img/wildstar_logo_transparentlarge.png" width=400 align="right"/>
+                            
+                            <ul align="right" class="list-inline item-details">
                                 <li>Company:
                                     <strong><a href="http://carbinestudios.com">Carbine Studios</a>
                                     </strong>
@@ -167,6 +254,29 @@
                                     </strong>
                                 </li>
                             </ul>
+                            
+                            <h1>Credits</h1>
+                            <h3>Scripter</h3>
+                            <h5> December 2014 - March 2016</h5>
+                            
+                            <p> Audit and assist Content Designers in using correct systems and augmenting with script when necessary.</p>
+                            <p> Extended our proprietary C-based scripting language and tools to better suit the needs of the design department.</p>
+                            <p> Worked as a cross-department intemediary to ensure that expectations were clearly and correctly communicated between departments.</p>
+                            <p> Assisted and handled large, complex, and high-profile scripts in production and live to ensure optimal server performance</p>
+                            <p> Trained designers to use our scripting language and tools. Was first line of technical assistance when designers incurred tools, systems, build, or source control issues. 
+                            <p> Provided Tools Engineering support as needed.</p>
+                            <p> Provided Gameplay Systems Engineering support as needed.</p>
+                            <p> Provided UI Lua scripting support as needed.</p>
+
+                            <h3>Game Designer</h3>
+                            <h5> May 2011 - November 2014</h5>
+                            <p> Created Quests, Challenges, Paths, Achievements in multiple overworld content zones. Also worked on spawning and staging of NPCs.</p>
+                            <p> Created multiple Normal and Veteran difficulty Adventures, which are 5-player instances that each provide a unique PvE experience unline anything in the game. Handled the scripted framework, gameplay setpieces and boss encounters.</p>
+                            <p> Created complex AI encounters for bosses as well as player-like behavior for NPCs in a MOBA-style Adventure. </p>
+                            <p> Worked directly with other departments to clearly communicate the needs of the design department</p>
+                            <p> Created prototypes of new systems and outlined the design requirements for engineering</p>
+                            <p> Assisted and trained other designers in understanding our tools, systems, best practices and optimal workflow</p>
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -174,6 +284,63 @@
             </div>
         </div>
     </div>
+
+
+
+    <!-- Phaser Typescript VSCode -->
+    <div class="work-modal modal fade" id="personalProject_phaserTypescriptVSCode" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal-body" align="left">
+                            <h1 align="center">Phaser Typescript VSCode Boilerplate</h1>
+                            <p>Boilerplate code project for getting up and running using Phaser and Typescript quickly using Visual Studio Code. Use VSCode to run a server and debug instead of downloading other software to host your project. </p>
+                            
+                            <h3> Getting Started </h3>
+                            <ol>
+                                <li><p>Install <a href="https://nodejs.org">Node</a>.</p></li>
+                                <li><p>Use NPM (comes with <a href="https://nodejs.org">Node</a>) to install <a href="https://www.npmjs.com/package/typescript">Typescript</a> from the command line.</p><code>npm install -g typescript
+                                </code></li>
+                                <li><p>Install <a href="https://code.visualstudio.com">VS Code</a>.</p></li>
+                                <li><p><a href="https://code.visualstudio.com/">Download</a> and extract this repository to desired destination.</p></li>
+                                <li><p>Open this folder using <a href="https://code.visualstudio.com">VS Code</a>.</p></li>
+                                <li><p>Press <em>Ctrl+Shift+B</em> to compile the typescript files in <a href="/djfdat/phaser-typescript-vscode-boilerplate/blob/master/src">src/</a> to <a href="/djfdat/phaser-typescript-vscode-boilerplate/blob/master/bin/js">bin/js/</a>.</p></li>
+                                <li><p>Press <em>F5</em> to start the webserver.</p></li>
+                                <li><p>Open localhost:5858 in your favorite web browser. To modify this port, make sure to update the port number in <a href="/djfdat/phaser-typescript-vscode-boilerplate/blob/master/.vscode/launch.json">.vscode/launch.json</a> and <a href="/djfdat/phaser-typescript-vscode-boilerplate/blob/master/server/server.js">server/server.js</a>.</p></li>
+                            </ol>
+                            
+                            <ul class="list-inline item-details" align="center">
+                                <iframe src="https://ghbtns.com/github-btn.html?user=djfdat&repo=phaser-typescript-vscode-boilerplate&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                
+                                <iframe src="https://ghbtns.com/github-btn.html?user=djfdat&repo=phaser-typescript-vscode-boilerplate&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                                
+                                <iframe src="https://ghbtns.com/github-btn.html?user=djfdat&repo=phaser-typescript-vscode-boilerplate&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -185,10 +352,6 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
