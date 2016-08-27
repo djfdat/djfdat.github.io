@@ -46,7 +46,7 @@
                         <a href="#about">Home</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#shippedTitles">Shipped Titles</a>
+                        <a href="#professionalProjects">Professional Work</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#personalProjects">Personal Projects</a>
@@ -72,24 +72,35 @@
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <p> A Game Developer with over 5 years of industry experience in Design and Engineering. Looking to expand my Engineering background while creating fun and challenging gameplay experiences.</p>
-                    <p> In my free time I like to learn new technologies in a variety of spaces. Currently working on Unreal, Unity, and Phaser side projects, and exploring various web APIs for interesting applications using ReactJS.</p>
+                    <p>A Game Developer with over 5 years of industry experience in Design and Engineering. Looking to expand my Engineering background while creating fun and challenging gameplay experiences.</p>
+                    <p>In my free time I like to learn new technologies in a variety of spaces. Currently working on Unreal, Unity, and Phaser side projects, and exploring various web APIs for interesting applications using ReactJS.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="shippedTitles">
+    <section id="professionalProjects">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 align="left">Shipped Titles</h2>
+                    <h2 align="left">Professional Work</h2>
                 </div>
             </div>
             <hr/>
 
             <!-- #region Job Entry -->
-            <div class="row">
+            <div class="column">
+                <div class="col-sm-6">
+                    <a href="#game_gow" class="work-link text-left" data-toggle="modal">
+                        <img src="img/gow_cover.png" width="300px"/>
+                        <h6 class="project-link">Santa Monica Studios, Sony</h6>
+                    </a>
+                </div>
+            </div>
+            <!-- #endregion Job Entry -->
+
+            <!-- #region Job Entry -->
+            <div class="column">
                 <div class="col-sm-6">
                     <a href="#game_wildstar" class="work-link text-left" data-toggle="modal">
                         <img src="img/wildstar_cover.png" width="300px"/>
@@ -177,8 +188,48 @@
     </footer>
 
     <!-- Modals -->
+    <!-- God of War -->
+    <div class="work-modal modal fade" id="game_gow" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal-body" align="left">
+                           
+                            <ul align="right" class="list-inline item-details">
+                                <li>Company:
+                                    <strong><a href="http://sms.playstation.com/">Sony Santa Monica Studios</a>
+                                    </strong>
+                                </li>
+                                <li>Product:
+                                    <strong><a href=https://godofwar.playstation.com/">God of War</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            
+                            <h1>Credits</h1>
+                            <h3>Technical Designer</h3>
+                            <h5>May 2016 - Current</h5>
+                            
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Wildstar -->
-    <div class="work-modal modal fade" id="game_wildstar" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="work-modal modal fade" id="game_wildstar" tabindex="-1" role="dialog" aria-hidden="true">>
         <div class="modal-content">
             
             <div class="close-modal" data-dismiss="modal">
@@ -252,17 +303,17 @@
                             <h1 align="center">Phaser Typescript VSCode Boilerplate</h1>
                             <p>Boilerplate code project for getting up and running using Phaser and Typescript quickly using Visual Studio Code. Use VSCode to run a server and debug instead of downloading other software to host your project. </p>
                             
-                            <h3> Getting Started </h3>
+                            <h3>Getting Started </h3>
                             <ol>
                                 <li><p>Install <a href="https://nodejs.org">Node</a>.</p></li>
-                                <li><p>Use NPM (comes with <a href="https://nodejs.org">Node</a>) to install <a href="https://www.npmjs.com/package/typescript">Typescript</a> from the command line.</p><code>npm install -g typescript
+                                <li><p>Use NPM (comes with <a href="https://nodejs.org">Node</a>) to install <a href="https://www.npmjs.com/package/typescript">Typescript</a>from the command line.</p><code>npm install -g typescript
                                 </code></li>
                                 <li><p>Install <a href="https://code.visualstudio.com">VS Code</a>.</p></li>
-                                <li><p><a href="https://code.visualstudio.com/">Download</a> and extract this repository to desired destination.</p></li>
+                                <li><p><a href="https://code.visualstudio.com/">Download</a>and extract this repository to desired destination.</p></li>
                                 <li><p>Open this folder using <a href="https://code.visualstudio.com">VS Code</a>.</p></li>
-                                <li><p>Press <em>Ctrl+Shift+B</em> to compile the typescript files in <a href="/djfdat/phaser-typescript-vscode-boilerplate/blob/master/src">src/</a> to <a href="/djfdat/phaser-typescript-vscode-boilerplate/blob/master/bin/js">bin/js/</a>.</p></li>
-                                <li><p>Press <em>F5</em> to start the webserver.</p></li>
-                                <li><p>Open localhost:5858 in your favorite web browser. To modify this port, make sure to update the port number in <a href="/djfdat/phaser-typescript-vscode-boilerplate/blob/master/.vscode/launch.json">.vscode/launch.json</a> and <a href="/djfdat/phaser-typescript-vscode-boilerplate/blob/master/server/server.js">server/server.js</a>.</p></li>
+                                <li><p>Press <em>Ctrl+Shift+B</em>to compile the typescript files in <a href="/djfdat/phaser-typescript-vscode-boilerplate/blob/master/src">src/</a>to <a href="/djfdat/phaser-typescript-vscode-boilerplate/blob/master/bin/js">bin/js/</a>.</p></li>
+                                <li><p>Press <em>F5</em>to start the webserver.</p></li>
+                                <li><p>Open localhost:5858 in your favorite web browser. To modify this port, make sure to update the port number in <a href="/djfdat/phaser-typescript-vscode-boilerplate/blob/master/.vscode/launch.json">.vscode/launch.json</a>and <a href="/djfdat/phaser-typescript-vscode-boilerplate/blob/master/server/server.js">server/server.js</a>.</p></li>
                             </ol>
                             
                             <ul class="list-inline item-details" align="center">
@@ -274,7 +325,7 @@
 
                                 <a class="github-button" href="https://github.com/djfdat/phaser-typescript-vscode-boilerplate/archive/master.zip" data-icon="octicon-cloud-download" data-style="mega" aria-label="Download djfdat/phaser-typescript-vscode-boilerplate on GitHub">Download</a>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>Close</button>
                         </div>
                     </div>
                 </div>
