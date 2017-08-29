@@ -57,7 +57,7 @@ footer{color:#fff;position:fixed;background-color:#233140;padding-bottom:16px;bo
 .scroll-top .btn{width:50px;height:50px;border-radius:100%;font-size:20px;line-height:28px;}
 .scroll-top .btn:focus{outline:0;}
 .work-modal .modal-content{padding:100px 0;min-height:100%;border:0;border-radius:0;text-align:center;background-clip:border-box;-webkit-box-shadow:none;box-shadow:none;}
-.work-modal .modal-content h2{margin:0;font-size:3em;}
+.work-modal .modal-content h2{margin:0;font-size:2.8em;}
 .work-modal .modal-content img{margin-bottom:30px;}
 .work-modal .modal-content .item-details{margin:30px 0;}
 .work-modal .close-modal{position:absolute;top:25px;right:25px;width:75px;height:75px;background-color:transparent;cursor:pointer;}
